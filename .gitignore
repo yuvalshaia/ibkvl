@@ -30,3 +30,17 @@
 
 # Debug files
 *.dSYM/
+
+# Files created during build
+.*.o.cmd
+.*.ko.cmd
+.*.ko.unsigned.cmd
+Module.symvers
+*.mod.c
+modules.order
+*.ko.unsigned
+.tmp_versions
+
+# Misc
+*.patch
+.*.swp
