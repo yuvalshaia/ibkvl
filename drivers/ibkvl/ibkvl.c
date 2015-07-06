@@ -42,10 +42,10 @@
 #include <linux/list.h>
 #include <linux/uaccess.h>
 
-#include "kvl_common.h"
-#include "kvl.h"
+#include "../../include/kvl.h"
+#include "../../include/kvl_common.h"
 
-MODULE_AUTHOR("Saeed Mahameed - Mellanox Technologies");
+MODULE_AUTHOR("Saeed Mahameed <saeedm@mellanox.com>");
 MODULE_DESCRIPTION("Testing module & VL library for linux kernel");
 MODULE_LICENSE("GPL");
 
